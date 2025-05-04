@@ -40,7 +40,7 @@ Click the Fork button in the upper right corner to fork the repository to your G
 
 ### 2. Configure GitHub Secrets
 
-Add the following Secrets in your repository settings:
+Add the following Environment Secrets in your repository settings:
 
 - `TARGET_REGISTRY`: Target Docker registry address (e.g., `registry.example.com`)
 - `TARGET_NAMESPACE`: Target namespace (e.g., `myproject`)
