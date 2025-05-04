@@ -2,7 +2,7 @@
 
 这是一个自动化工具，用于将公共Docker镜像同步到你的私有Docker仓库。使用GitHub Actions每日定时执行，同时支持代码提交触发。
 
-[English](#Readme-EN.md) | [中文](#Readme.md)
+[English](./Readme-EN.md)
 
 ## 功能特点
 
