@@ -42,7 +42,7 @@ images:
 
 ### 2. 配置GitHub Secrets
 
-在你的仓库设置中添加以下 Environment Secrets：
+在你的仓库设置中添加以下 Repository secrets：
 
 - `TARGET_REGISTRY`: 目标Docker仓库地址（例如：`registry.example.com`）
 - `TARGET_NAMESPACE`: 目标命名空间（例如：`myproject`）
