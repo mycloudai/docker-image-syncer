@@ -1,0 +1,17 @@
+- source: allanpk716/chinesesubfinder
+- source: linuxserver/jackett
+- source: diluka/nas-tools:2.9.1
+- source: linuxserver/qbittorrent
+- source: neilpang/acme.sh
+- source: nyanmisaka/jellyfin
+- source: hslr/sun-panel
+- source: v2raya/v2raya
+- source: herberthe0229/iptv-sources
+- source: xhofe/alist:latest-ffmpeg
+- source: linkease/webvirtcloud:latest
+- source: wouisb/subconv:latest
+- source: ghcr.io/open-webui/open-webui:main
+- source: nginx:stable-alpine
+- source: hectorqin/reader
+- source: hectorqin/reader
+  target: test:a
