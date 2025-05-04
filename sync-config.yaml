@@ -1,17 +1,49 @@
+# Docker镜像同步配置文件
+# 支持的配置字段：
+# - source: 源镜像地址（必填）
+# - target: 目标镜像名称（可选）
+# - platform: 指定平台架构（可选）
+
+# 基础镜像
 - source: allanpk716/chinesesubfinder
+  
 - source: linuxserver/jackett
+  
 - source: diluka/nas-tools:2.9.1
+  
 - source: linuxserver/qbittorrent
+  
 - source: neilpang/acme.sh
+  
 - source: nyanmisaka/jellyfin
+  
 - source: hslr/sun-panel
+  
 - source: v2raya/v2raya
+  
 - source: herberthe0229/iptv-sources
+  
 - source: xhofe/alist:latest-ffmpeg
+  
 - source: linkease/webvirtcloud:latest
+  
 - source: wouisb/subconv:latest
+  
 - source: ghcr.io/open-webui/open-webui:main
+  
 - source: nginx:stable-alpine
+  
 - source: hectorqin/reader
+
+# 示例：自定义目标名称
 - source: hectorqin/reader
   target: test:a
+
+# 示例：指定平台架构
+#- source: nginx:latest
+#  platform: linux/amd64
+
+# 示例：完整配置
+#- source: postgres:15
+#  target: my-postgres:15
+#  platform: linux/arm64
