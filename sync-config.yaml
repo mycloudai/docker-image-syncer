@@ -17,3 +17,4 @@ images:
   - source: hectorqin/reader
     target: test:a
   - source: gitea/gitea:latest-rootless
+  - source: mariadb:11-ubi9
