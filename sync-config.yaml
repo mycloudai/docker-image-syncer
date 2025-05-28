@@ -1,4 +1,5 @@
 images:
+  - source: gitea/act_runner:nightly-rootless
   - source: allanpk716/chinesesubfinder
   - source: linuxserver/jackett
   - source: diluka/nas-tools:2.9.1
