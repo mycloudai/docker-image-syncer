@@ -1,5 +1,4 @@
 images:
-  - source: gitea/act_runner:nightly-rootless
   - source: gitea/act_runner:nightly
   - source: allanpk716/chinesesubfinder
   - source: linuxserver/jackett
