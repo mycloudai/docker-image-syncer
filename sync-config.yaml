@@ -22,3 +22,4 @@ images:
   - source: mariadb:11-ubi9
   - source: gitea/act_runner:nightly-dind-rootless
   - source: b3log/siyuan
+  - source: ghcr.io/open-webui/open-webui:main
