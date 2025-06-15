@@ -23,3 +23,4 @@ images:
   - source: gitea/act_runner:nightly-dind-rootless
   - source: b3log/siyuan
   - source: ghcr.io/open-webui/open-webui:main
+  - source: jupyter/minimal-notebook:latest
