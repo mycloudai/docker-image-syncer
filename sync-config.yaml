@@ -24,3 +24,4 @@ images:
   - source: b3log/siyuan
   - source: ghcr.io/open-webui/open-webui:main
   - source: jupyter/minimal-notebook:latest
+  - source: linuxserver/openssh-server:latest
