@@ -25,3 +25,4 @@ images:
   - source: ghcr.io/open-webui/open-webui:main
   - source: jupyter/minimal-notebook:latest
   - source: linuxserver/openssh-server:latest
+  - source: gitea/act_runner:nightly
