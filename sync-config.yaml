@@ -27,5 +27,5 @@ images:
   - source: linuxserver/openssh-server:latest
   - source: gitea/act_runner:nightly
   - source: thijsvanloef/palworld-server-docker:latest
-  - source: thijsvanloef/palworld-server-docker:2.6.0
+  - source: thijsvanloef/palworld-server-docker:v2.6
   - source: jokerwho/palworld-server-tool
