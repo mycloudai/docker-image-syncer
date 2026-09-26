@@ -1,5 +1,6 @@
 images:
   - source: gitea/act_runner:nightly
+  - source: mariadb:11-ubi9
   - source: gitea/gitea:latest
   - source: gitea/gitea:latest-rootless
   - source: allanpk716/chinesesubfinder
@@ -19,7 +20,6 @@ images:
   - source: hectorqin/reader
   - source: hectorqin/reader
     target: test:a
-  - source: mariadb:11-ubi9
   - source: gitea/act_runner:nightly-dind-rootless
   - source: b3log/siyuan
   - source: ghcr.io/open-webui/open-webui:main
