@@ -140,21 +140,27 @@ class DockerImageSync:
         """同步所有镜像"""
         try:
             images = self.load_config()
-
+    
             for image_config in images:
                 result = self.sync_image(image_config)
                 self.results.append(result)
-
+    
             self.save_results()
-
+    
             successful = sum(1 for r in self.results if r["success"])
             failed = sum(1 for r in self.results if not r["success"])
-
+    
             logger.info(f"Sync completed: {successful} successful, {failed} failed")
-
-            if failed > 0:
+    
+            # 原逻辑: 有失败就 exit 1
+            # if failed > 0:
+            #     sys.exit(1)
+    
+            # 新逻辑: 全部失败才 exit 1(容忍个别失败)
+            if successful == 0 and failed > 0:
+                logger.error("All images failed to sync")
                 sys.exit(1)
-
+    
         except Exception as e:
             logger.error(f"Sync process failed: {e}")
             sys.exit(1)
