@@ -1,5 +1,7 @@
 images:
   - source: gitea/act_runner:nightly
+  - source: gitea/gitea:latest
+  - source: gitea/gitea:latest-rootless
   - source: allanpk716/chinesesubfinder
   - source: linuxserver/jackett
   - source: diluka/nas-tools:2.9.1
@@ -17,8 +19,6 @@ images:
   - source: hectorqin/reader
   - source: hectorqin/reader
     target: test:a
-  - source: gitea/gitea:latest
-  - source: gitea/gitea:latest-rootless
   - source: mariadb:11-ubi9
   - source: gitea/act_runner:nightly-dind-rootless
   - source: b3log/siyuan
